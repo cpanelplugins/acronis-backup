@@ -33,9 +33,7 @@ You will obtain a link and user name and password for the Acronis web console.
 
 To install the Acronis WHM and cPanel plugin for WHM and cPanel, run the following command:
 
-```
-sh <(curl -L https://download.acronis.com/ci/cpanel/stable/install_acronis_cpanel.sh || wget -O - https://download.acronis.com/ci/cpanel/stable/install_acronis_cpanel.sh)
-```
+```sh <(curl -L https://download.acronis.com/ci/cpanel/stable/install_acronis_cpanel.sh || wget -O - https://download.acronis.com/ci/cpanel/stable/install_acronis_cpanel.sh)```
 
 Setup instructions: https://dl.acronis.com/u/pdf/Acronis_Backup_plugin_for_cPanel_en-US.pdf
 
@@ -46,9 +44,7 @@ Setup instructions: https://dl.acronis.com/u/pdf/Acronis_Backup_plugin_for_cPane
 
 To uninstall the Acronis Backup plugin for WHM and cPanel, run the following command:
 
-```
-yum remove acronis-backup-cpanel
-```
+```yum remove acronis-backup-cpanel```
 
 Removing the extension will also uninstall the backup agent from the cPanel server. The backup accounts you created and the backed-up data will be left intact.
 
